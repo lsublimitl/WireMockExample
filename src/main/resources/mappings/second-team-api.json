@@ -1,0 +1,30 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPath": "/contacts"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "second-team-api/contacts.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPath": "/contactos"
+      },
+      "response": {
+        "status": 404,
+        "jsonBody": {"status":"Error","message":"Endpoint not found"},
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/friends",
+    "cookies" : {
+      "session" : {
+        "matches" : ".*12345.*"
+      }
+    },
+    "basicAuthCredentials" : {
+      "username" : "jeff@example.com",
+      "password" : "jeffteenjefftyjeff"
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "third-team-api/friends.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
